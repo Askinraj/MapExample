@@ -4,7 +4,7 @@ import React, { useEffect } from 'react';
 const MapContainer = () => {
   useEffect(() => {
     const googleScript = document.createElement('script');
-    googleScript.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyCHok3tGAyId0YZijst9tw4aR6K5gH3VSk &libraries=places`;
+    googleScript.src = `https://maps.googleapis.com/maps/api/js?key=Use GOOGLE API key here &libraries=places`;
     googleScript.async = true;
     window.document.body.appendChild(googleScript);
 
